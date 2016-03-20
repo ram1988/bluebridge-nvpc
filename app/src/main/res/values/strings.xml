@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BlueBridge</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed_manage_event">TabbedManageEventActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_manage_events_tabbed">ManageEventsTabbedActivity</string>
+    <string name="position_dialog_title">Manage Positions</string>
+    <string name="tab">\u0009\u0009\u0009\u0009\u0009</string>
+
+    <string-array name="skills_array">
+        <item>Accounting and Finance</item>
+        <item>Arts and Music</item>
+        <item>Counselling and Mentoring</item>
+        <item>Fundraising</item>
+        <item>Human Resource</item>
+        <item>Information Technology</item>
+        <item>Leadership Development</item>
+        <item>Legal</item>
+        <item>Marketing and Communications</item>
+        <item>Medical and Health</item>
+        <item>Volunteer Management</item>
+        <item>Other Skills</item>
+        <item>No Specific Skills Required</item>
+    </string-array>
+</resources>
+

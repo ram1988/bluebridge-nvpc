@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    tools:context="com.ibm.bluebridge.ManageEventsTabbedActivity$PlaceholderFragment"
+    android:weightSum="1">
+
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Number of Volunteers"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Positions*"
+        android:layout_weight="0.14" />
+
+
+
+    <Button
+        android:id="@+id/add_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Position" />
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:layout_marginTop="5dip"
+        android:text="Description of Roles*"/>
+    <EditText android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:singleLine="true"
+        android:layout_marginTop="5dip"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:layout_marginTop="5dip"
+        android:text="Points to Note*"
+        android:layout_weight="0.09" />
+    <EditText android:id="@+id/points_to_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:singleLine="true"
+        android:layout_marginTop="5dip"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:layout_marginTop="5dip"
+        android:text="Activity Suitabilities*"/>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:layout_marginTop="5dip"
+        android:text="Required Volunteer Signup Information"/>
+
+</LinearLayout>
+
